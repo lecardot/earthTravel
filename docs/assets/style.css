@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --lived-color: rgba(207, 153, 95, .8);
+  --visited-color: rgba(219, 173, 106, .8);
+  --rest-color: rgba(223, 213, 165, .8);
+}
+
+.conteneur {
+  display: grid;
+  grid-template-areas: "title title title title title"
+    "text_w text_w cworld cworld cworld"
+    "sep1 sep1 sep1 sep1 sep1"
+    "cfrance cfrance cfrance text_f text_f"
+    "sep2 sep2 sep2 sep2 sep2"
+    "text_c text_c ccanada ccanada ccanada";
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 0.25fr 1fr 0.125fr 1fr 0.125fr 1fr;
+}
+
+#title {
+  grid-area: title;
+  font-family: Baskervville;
+}
+
+#title .maintitle {
+  font-size: 60pt;
+  text-align: center;
+}
+
+#title .subtitle {
+  font-size: 20pt;
+  margin-left: 30%; 
+  text-align: center;
+}
+
+#text_c, #text_w, #text_f .maintitle {
+  font-size: 30pt;
+  color: rgb(150, 137, 123);
+  text-align: center;
+}
+
+#text_w {
+  grid-area: text_w;
+}
+
+#cworld {
+  grid-area: cworld;
+  width: auto;
+  height: auto;
+}
+
+#sep1 {
+  grid-area: sep1;
+  height: 30px;
+}
+
+#sep2 {
+  grid-area: sep2;
+  height: 30px;
+}
+
+#text_f {
+  grid-area: text_f;
+}
+
+#cfrance {
+  grid-area: cfrance;
+  width: auto;
+  height: auto;
+}
+
+#text_c {
+  grid-area: text_c;
+}
+
+#ccanada {
+  grid-area: ccanada;
+  width: auto;
+  height: auto;
+}
+
+body {
+  background: rgb(239, 239, 239);
+  overflow-x: hidden;
+}
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.land {
+  fill: rgb(6, 7, 3);
+  stroke-opacity: 1;
+}
+
+.countries path {
+  stroke: rgba(0, 0, 0, .1);
+  stroke-linejoin: round;
+  stroke-width: .5;
+  fill: transparent;
+}
+
+.countries path:hover {
+  stroke: rgba(0, 0, 0, .6);
+  fill-opacity: .3;
+  fill: white;
+}
+
+.graticule {
+  fill: none;
+  stroke: black;
+  stroke-width: .5;
+  opacity: .2;
+}
+
+.labels {
+  font: 6px Baskervville;
+  fill: rgba(0, 0, 0, .9);
+}
+
+.noclicks {
+  pointer-events: none;
+}
+
+.point {
+  opacity: .6;
+  stroke-width: 2;
+}
+
+.arcs {
+  opacity: .1;
+  stroke: gray;
+  stroke-width: 3;
+}
+
+.flyers {
+  stroke-width: 2;
+  opacity: .6;
+  stroke: darkred;
+}
+
+.arc,
+.flyer {
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.tooltip {
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  opacity: .8;
+}
+
+.tip {
+  text-align: center;
+}
+
+.tip.city {
+  font-weight: 100;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+}
+
+.tip.region {
+  font-family: Baskervville Black;
+  font-size: 12px;
+}
+
+.arc {}
+
+.flyer {}
+
+.flyer:hover {}
+
+@media all and (max-width: 1000px) {
+  .conteneur {
+    grid-template-areas: "title"
+      "text_w"
+      "cworld"
+      "sep1"
+      "text_f"
+      "cfrance" 
+      "sep2"
+      "text_c"
+      "ccanada";
+    grid-auto-rows: 0.25fr 0.25fr 1fr 0.125fr 0.25fr 1.15fr 0.125fr 0.25fr 1.15fr;
+    grid-template-columns: 1fr;
+    align-self: center;
+  }
+}

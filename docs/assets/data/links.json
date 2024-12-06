@@ -1,0 +1,552 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Montréal",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ]
+                ]
+            }
+        },
+          {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "New-York",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        -74.0060152,
+                        40.7127281
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Bath",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        -2.3902675870780454,
+                        51.362712621105935
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Grenoble",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        5.7357819,
+                        45.1875602
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Ourense",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        -7.868410044677718,
+                        42.34331305541388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Liège",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        5.540409047562425,
+                        50.56612176957151
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Lisbonne",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        -9.1365919,
+                        38.7077507
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Barcelone",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        2.1774322,
+                        41.3828939
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Caen",
+                "targetname": "Toulouse",
+                "transport": "train"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ],
+                    [
+                        1.45404017,
+                        43.6118173
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Lisbonne",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -9.1365919,
+                        38.7077507
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Toronto",
+                "transport": "train"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -79.3839347,
+                        43.6534817
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Boston",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -71.055220,
+                        42.3678523
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Miami",
+                "targetname": "San_Juan",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.192046,
+                        25.777872
+                    ],
+                    [
+                        -66.114981,
+                        18.465374
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Miami",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -80.192046,
+                        25.777872
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Halifax",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -63.57289981191113,
+                        44.64571201869623
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "New-York",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -74.0060152,
+                        40.7127281
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Toronto",
+                "targetname": "Reykjavik",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -79.3839347,
+                        43.6534817
+                    ],
+                    [
+                        -21.960435,
+                        64.1450035
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Reykjavik",
+                "targetname": "Caen",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -21.960435,
+                        64.1450035
+                    ],
+                    [
+                        -0.3333103,
+                        49.1562239
+                    ]
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Chicago",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -87.630191,
+                        41.881759
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Chicago",
+                "targetname": "Seattle",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -87.630191,
+                        41.881759
+                    ],
+                    [
+                        -122.333224,
+                        47.603172
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Seattle",
+                "targetname": "San_Francisco",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.333224,
+                        47.603172
+                    ],
+                    [
+                        -122.405625,
+                        37.780828
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "San_Francisco",
+                "targetname": "Los_Angeles",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.405625,
+                        37.780828
+                    ],
+                    [
+                        -118.234540,
+                        34.055156
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Los_Angeles",
+                "targetname": "El_Paso",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.234540,
+                        34.055156
+                    ],
+                    [
+                        -106.495338,
+                        31.758231
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "El_Paso",
+                "targetname": "New_Orleans",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.495338,
+                        31.758231
+                    ],
+                    [
+                        -90.062667,
+                        29.959404
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "New_Orleans",
+                "targetname": "Washington",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.062667,
+                        29.959404
+                    ],
+                    [
+                        -77.005567,
+                        38.898375
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Washington",
+                "targetname": "New-York",
+                "transport": "bus"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.005567,
+                        38.898375
+                    ],
+                    [
+                        -74.0060152,
+                        40.7127281
+                    ]
+                ]
+            }
+        }
+    ]
+}
