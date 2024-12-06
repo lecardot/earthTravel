@@ -33,8 +33,7 @@ fetch('https://raw.githubusercontent.com/lecardot/earthTravel/main/docs/assets/p
                     .on("drag", dragged)
             )
             .call(
-                d3
-                    .zoom()
+                d3.zoom()
                     .scaleExtent(params.earth.scaleExtent)
                     .on("zoom", x => zoomed(svg_w, x))
             );
