@@ -68,8 +68,8 @@ fetch('https://raw.githubusercontent.com/lecardot/earthTravel/main/docs/assets/p
             .defer(d3.json, "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson")
             .defer(d3.json, "https://raw.githubusercontent.com/wisdomtheif/Canadian_GeoJSON/master/canada_provinces.geojson")
             .defer(d3.json, "https://raw.githubusercontent.com/d3/d3.github.com/master/world-110m.v1.json")
-            .defer(d3.json, "https://raw.githubusercontent.com/tlecardo/world/main/docs/assets/data/places.json")
-            .defer(d3.json, "https://raw.githubusercontent.com/tlecardo/world/main/docs/assets/data/links.json")
+            .defer(d3.json, "https://raw.githubusercontent.com/lecardot/earthTravel/main/docs/assets/data/places.json")
+            .defer(d3.json, "https://raw.githubusercontent.com/lecardot/earthTravel/main/docs/assets/data/links.json")
             .await(ready);
 
         function ready(error, data_france, data_canada, data_world, places, links) {
