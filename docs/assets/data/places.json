@@ -77,6 +77,24 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Beauvais",
+                "adm0name": "France",
+                "adm1name": "Haut-de-France",
+                "note": [
+                    "france"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0823355,
+                    49.4300997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Dives-s/-Mer",
                 "adm0name": "France",
                 "adm1name": "Normandie",
