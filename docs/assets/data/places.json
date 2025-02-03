@@ -1658,6 +1658,26 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Mt-Foster",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada",
+                    "parc"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.406135,
+                    45.231833
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Parc de la Jacques-Cartier",
                 "adm0name": "Canada",
                 "adm1name": "Québec",
