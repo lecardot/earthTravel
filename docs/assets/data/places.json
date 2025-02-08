@@ -1828,6 +1828,61 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Vancouver",
+                "adm0name": "Canada",
+                "adm1name": "Colombie-Britannique",
+                "note": [
+                    "canada",
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.19239,
+                    49.1928067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tokyo",
+                "adm0name": "Japon",
+                "adm1name": "Kanto",
+                "note": [
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7638947,
+                    35.6768601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Taipei",
+                "adm0name": "Taiwan",
+                "adm1name": "Taipei",
+                "note": [
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5636796,
+                    25.0375198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Liège",
                 "adm0name": "Belgique",
                 "adm1name": "Wallonie",

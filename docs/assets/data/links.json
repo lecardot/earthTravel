@@ -379,6 +379,69 @@
                 ]
             }
         },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Montréal",
+                "targetname": "Vancouver",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ],
+                    [
+                        -123.19239,
+                        49.1928067
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Vancouver",
+                "targetname": "Tokyo",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -123.19239,
+                        49.1928067
+                    ],
+                    [
+                        139.7638947,
+                        35.6768601
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Tokyo",
+                "targetname": "Taipei",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        139.7638947,
+                        35.6768601
+                    ],
+                    [
+                        121.5636796,
+                        25.0375198
+                    ]
+                ]
+            }
+        },
 
         {
             "type": "Feature",
