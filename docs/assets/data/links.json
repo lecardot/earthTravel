@@ -442,7 +442,69 @@
                 ]
             }
         },
-
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Manille",
+                "targetname": "Taipei",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        120.9803621,
+                        14.5904492
+                    ],
+                    [
+                        121.5636796,
+                        25.0375198
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Los_Angeles",
+                "targetname": "Taipei",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.234540,
+                        34.055156
+                    ],
+                    [
+                        121.5636796,
+                        25.0375198
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sourcename": "Los_Angeles",
+                "targetname": "Montréal",
+                "transport": "plane"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.234540,
+                        34.055156
+                    ],
+                    [
+                        -73.62874807886477,
+                        45.51015200931694
+                    ]
+                ]
+            }
+        },
         {
             "type": "Feature",
             "properties": {

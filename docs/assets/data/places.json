@@ -1883,6 +1883,24 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Manille",
+                "adm0name": "Philippines",
+                "adm1name": "Grand Manille",
+                "note": [
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.9803621,
+                    14.5904492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Liège",
                 "adm0name": "Belgique",
                 "adm1name": "Wallonie",
