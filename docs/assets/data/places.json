@@ -740,7 +740,6 @@
                 ]
             }
         },
-
         {
             "type": "Feature",
             "properties": {
@@ -1674,7 +1673,6 @@
                 ]
             }
         },
-
         {
             "type": "Feature",
             "properties": {
@@ -1712,7 +1710,7 @@
                     48.26339414
                 ]
             }
-        },    
+        },
         {
             "type": "Feature",
             "properties": {
@@ -1731,7 +1729,97 @@
                     47.73348491
                 ]
             }
-        },     
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Havre-St-Pierre",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.6003951,
+                    50.2463647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rimouski",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.529968,
+                    48.450155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sept-Îles",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.3790642,
+                    50.2109579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Natashquan",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.8174062,
+                    50.1839077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Port-Menier",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.3515483,
+                    49.8179257
+                ]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
