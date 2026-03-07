@@ -1635,6 +1635,24 @@
                 ]
             }
         },
+         {
+            "type": "Feature",
+            "properties": {
+                "name": "St-Michel-des-Sts",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9176803,
+                    46.6786221
+                ]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
@@ -1855,6 +1873,82 @@
                 "coordinates": [
                     -73.62874807886477,
                     45.51015200931694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc de Frontenac",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada",
+                    "parc"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.1561050415039,
+                    45.988712310791016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc des Mts-Valin",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada",
+                    "parc"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.81649780273438,
+                    48.57872772216797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Algonquin Park",
+                "adm0name": "Canada",
+                "adm1name": "Ontario",
+                "note": [
+                    "canada",
+                    "parc"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.31990814208984,
+                    45.79518508911133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc de Frontenac",
+                "adm0name": "Canada",
+                "adm1name": "Québec",
+                "note": [
+                    "canada",
+                    "parc"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.1561050415039,
+                    45.988712310791016
                 ]
             }
         },
