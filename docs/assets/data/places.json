@@ -1680,8 +1680,7 @@
                 "adm1name": "Alberta",
                 "note": [
                     "canada",
-                    "parc",
-                    "world"
+                    "parc"
                 ]
             },
             "geometry": {
@@ -1700,8 +1699,7 @@
                 "adm1name": "Alberta",
                 "note": [
                     "canada",
-                    "parc",
-                    "world"
+                    "parc"
                 ]
             },
             "geometry": {
@@ -1719,8 +1717,7 @@
                 "adm0name": "Canada",
                 "adm1name": "British Columbia",
                 "note": [
-                    "canada",
-                    "world"
+                    "canada"
                 ]
             },
             "geometry": {
@@ -1731,7 +1728,6 @@
                 ]
             }
         },
-
         {
             "type": "Feature",
             "properties": {
