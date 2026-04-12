@@ -1675,6 +1675,66 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Parc National de Banff",
+                "adm0name": "Canada",
+                "adm1name": "Alberta",
+                "note": [
+                    "canada",
+                    "parc",
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.927750,
+                    51.496296
+                ]
+            }
+        },
+          {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc National de Jasper",
+                "adm0name": "Canada",
+                "adm1name": "Alberta",
+                "note": [
+                    "canada",
+                    "parc",
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.0807,
+                    52.877369
+                ]
+            }
+        },
+                  {
+            "type": "Feature",
+            "properties": {
+                "name": "Merritt",
+                "adm0name": "Canada",
+                "adm1name": "British Columbia",
+                "note": [
+                    "canada",
+                    "world"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.78841,
+                    50.112488
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Mt-Foster",
                 "adm0name": "Canada",
                 "adm1name": "Québec",
