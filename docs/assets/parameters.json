@@ -64,7 +64,8 @@
         "CA01",
         "CA02",
         "CA07",
-        "CA08"
+        "CA08",
+        "CA012"
     ],
     "flyer": {
         "altitude": 30
